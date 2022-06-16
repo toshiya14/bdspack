@@ -2,7 +2,7 @@
 
 A library to serialize document data into binary format.
 
-(中文文档)[docs/readme_CN.md]
+[中文文档](docs/readme_CN.md)
 
 - [BDSP (Binary Document Serializable Pack)](#bdsp-binary-document-serializable-pack)
   - [Structure](#structure)
