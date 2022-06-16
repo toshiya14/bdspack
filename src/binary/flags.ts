@@ -1,0 +1,35 @@
+export const flags = {
+  ROOT: 0x40,
+  EMBEDDED: 0x00,
+
+  BOOLEAN: 0x00,
+  FALSE: 0x00,
+  TRUE: 0x01,
+
+  DECIMAL: 0x02,
+  SINGLE: 0x00,
+  DOUBLE: 0x01,
+
+  INTEGER: 0x04,
+  INT8: 0x00,
+  INT16: 0x01,
+  INT32: 0x02,
+  INT64: 0x03,
+  SIGNED: 0x80,
+  UNSIGNED: 0x00,
+  INT_TYPE_MASK: 0x03,
+
+  STRING: 0x08,
+
+  BINARY: 0x10,
+
+  DOCUMENT: 0x20,
+  DICTIONARY: 0x00,
+  LIST: 0x10,
+  DOCTYPE_MASK: 0x70,
+
+  EXTENDABLE_MASK: 0x44,
+  EXTEND_DATETIME: 0x10,
+
+  UNDEFINED: 0xff
+};

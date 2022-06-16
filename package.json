@@ -1,0 +1,20 @@
+{
+  "name": "bdspack",
+  "version": "0.9.1",
+  "description": "A binary based package library.",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toshiya14/bdspack.git"
+  },
+  "author": "Akaishi Toshiya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toshiya14/bdspack/issues"
+  },
+  "homepage": "https://github.com/toshiya14/bdspack#readme"
+}
