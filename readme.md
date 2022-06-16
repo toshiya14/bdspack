@@ -5,6 +5,7 @@ A library to serialize document data into binary format.
 [中文文档](docs/readme_CN.md)
 
 - [BDSP (Binary Document Serializable Pack)](#bdsp-binary-document-serializable-pack)
+  - [Quick start](#quick-start)
   - [Structure](#structure)
   - [Data types](#data-types)
     - [Undefined](#undefined)
@@ -31,6 +32,21 @@ A library to serialize document data into binary format.
     - [Body](#body)
   - [Flags](#flags)
   - [Magic in all](#magic-in-all)
+
+## Quick start
+
+install the package from npm:
+```bash
+npm install bdspack
+```
+
+for TypeScript:
+```typescript
+import { unpack, pack } from "bdspack"
+
+let bytes = pack({"key1": "value1", "key2": false, "key3": 65537, "key4": -1});
+let str = unpack(bytes);
+```
 
 ## Structure
 

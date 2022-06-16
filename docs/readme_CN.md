@@ -3,6 +3,7 @@
 BDSP 是一个可以将数据格式化成二进制包的库。
 
 - [BDSP (Binary Document Serializable Pack)](#bdsp-binary-document-serializable-pack)
+  - [快速教程](#快速教程)
   - [结构](#结构)
   - [数据类型](#数据类型)
     - [Undefined 空](#undefined-空)
@@ -29,6 +30,22 @@ BDSP 是一个可以将数据格式化成二进制包的库。
     - [Body 部分](#body-部分)
   - [Flags](#flags)
   - [类型汇总](#类型汇总)
+
+## 快速教程
+
+安装npm包:
+
+```bash
+npm install bdspack
+```
+
+TypeScript:
+```typescript
+import { unpack, pack } from "bdspack"
+
+let bytes = pack({"key1": "value1", "key2": false, "key3": 65537, "key4": -1});
+let str = unpack(bytes);
+```
 
 ## 结构
 
